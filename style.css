@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(45deg, 
+      #ff6b6b,   /* soft red */
+      #f06595,   /* soft pink */
+      #cc5de8,   /* lavender */
+      #845ef7,   /* soft purple */
+      #5c7cfa,   /* light blue */
+      #339af0,   /* sky blue */
+      #22b8cf,   /* teal */
+      #20c997,   /* sea green */
+      #51cf66,   /* light green */
+      #94d82d,   /* lime green */
+      #fcc419,   /* yellow */
+      #ff922b    /* orange */
+    );
+      background-size: 200% 200%;
+      animation: gradientBackground 5s ease infinite;
+}
+@keyframes gradientBackground {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 50% 0%; }
+  50% { background-position: 100% 50%; }
+  75% { background-position: 50% 100%; }
+  100% { background-position: 0% 50%; }
+}
+  
